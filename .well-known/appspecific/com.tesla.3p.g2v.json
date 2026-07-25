@@ -3,7 +3,7 @@
   "public_key": {
     "kty": "EC",
     "crv": "P-256",
-    "x": "vOdl90Ia4ohAnYD1UxNqRj2wrOMhm3ABFcd6Sd4iUmo",
-    "y": "VuB4mTTR-BwoC54ej7fY8Hke4vPKb0lPiSa-DOW9msY"
+    "x": "3bfab763ff67d39407d319b43d4f951928599debbe9f5516951a81e98ff2b7ae",
+    "y": "dcc3d2ebfff6f94b26ac8f72ba1624078428496c0066fe293932ab7c42e45a81"
   }
 }
