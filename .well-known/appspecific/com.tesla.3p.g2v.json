@@ -1,0 +1,9 @@
+{
+  "schema": "tesla-app-g2v-v1",
+  "public_key": {
+    "kty": "EC",
+    "crv": "P-256",
+    "x": "7Ytdpsrk68_AitMUAQu4KYm7fpGHtQbHl5xncEwtR8U",
+    "y": "1eubohR9AJoJ7Ui2Jx26c2qm2XIP-u-ddBW0J85Oeg"
+  }
+}
