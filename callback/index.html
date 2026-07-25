@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tesla Authorization Callback</title>
+</head>
+<body>
+  <h2>테슬라 인증 완료</h2>
+  <p>아래 발급된 <b>Authorization Code</b>를 복사하여 앱에 입력하거나, 앱으로 복귀하세요.</p>
+  <p id="code-display" style="font-weight: bold; color: blue;"></p>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const code = urlParams.get('code');
+    if (code) {
+      document.getElementById('code-display').innerText = code;
+
+      // 옵션: 커스텀 스키마를 이용해 안드로이드 앱을 자동으로 열기
+      // window.location.href = "my-tesla-app://callback?code=" + code;
+    } else {
+      document.getElementById('code-display').innerText = "인증 코드가 없습니다.";
+    }
+  </script>
+</body>
+</html>
